@@ -1,1 +1,12 @@
-Benchmarking multi-process performance on SMP(, and hyperthreading)
+Benchmarking multi-process performance on SMP(multi-core, and hyperthreading)
+
+Speed of each instance is measured against number of running copies.
+
+Depends on grace( http://plasma-gate.weizmann.ac.il/Grace/ ) for plotting.
+
+To build,
+
+        ./autogen.sh
+
+To benchmark for up to 8 simultaneous running processes,
+        ./ht 8
