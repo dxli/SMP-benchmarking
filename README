@@ -8,5 +8,5 @@ To build,
 
         ./autogen.sh
 
-To benchmark for up to 8 simultaneous running processes,
+To benchmark for up to 8 simultaneously running processes,
         ./ht 8
